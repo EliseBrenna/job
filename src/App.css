@@ -1,38 +1,168 @@
-.App {
+body {
+  padding: 0;
+  margin: 0;
   text-align: center;
+  margin-bottom: 200px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  padding: 20px;
+  margin: auto;
+  height: 240px;
+  color: #EEE;
+  font-size: 48px;
+  background-color: #29BB9C;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header p {
+  padding: 20px;
+  font-size: 14px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.searchField {
+  width: 650px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+
+}
+
+.main {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+button {
   color: white;
+  border: none;
+  padding: 15px 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-radius: 4px;
+  margin: 10px;;
 }
 
-.App-link {
-  color: #61dafb;
+ul {
+  padding-left: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.calendarImg {
+  height: 15px;
+}
+
+.suitcaseImg {
+  height: 13px;
+}
+
+.envelopeImg {
+  height: 16px;
+}
+
+.webpageImg {
+  height: 16px;
+}
+
+.job {
+  border: solid 1px;
+  color: grey;
+  list-style-type:none;
+  display: block;
+  margin-bottom: 20px;
+  width: 630px;
+  padding: 10px;
+  
+}
+
+.title {
+  color: #F0C330;
+  text-align: left;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.createdAt {
+  display: flex;
+  align-content: space-around;
+  color: black;
+  padding-top: 10px;
+  margin: 10px;
+  font-size: 14px;
+  align-content: space-between;
+}
+
+.details {
+  border: solid 1px;
+  color: grey;
+  list-style-type:none;
+  display: block;
+  margin-top: 20px;
+  width: 630px;
+  padding: 10px;
+}
+
+.detailsTitle {
+  padding: 10px;
+  display: block;
+  text-align: left;
+  color: black;
+  font-size: 34px;
+  border-bottom: solid 1px;
+  border-color: lightgray;
+}
+
+.detailsInfo {
+  color: black;
+  padding: 10px;
+  /* display: inline-block; */
+  text-align: left;
+  border-bottom: solid 1px;
+  border-color: lightgray;
+}
+
+.detailsSummary {
+  color: black;
+  padding: 10px;
+  text-align: left;
+  border-bottom: solid 1px;
+  border-color: lightgray;
+}
+
+.detailsDate {
+  color: black;
+  padding: 10px;
+  text-align: left;
+}
+
+input[type=text], select {
+  width: 650px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.add-job {
+  background-color: #E54D42;
+}
+
+.browse-job {
+  background-color: #449DDA;
+}
+
+.save-job {
+  background-color: #449DDA;
+}
+
+.delete-job {
+  background-color: #E54D42;
+}
+
+.cancel-job {
+  background-color: #E54D42;
+}
+
+.edit-job {
+  background-color: #449DDA;
 }
